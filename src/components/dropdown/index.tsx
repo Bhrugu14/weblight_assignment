@@ -19,7 +19,9 @@ export const Dropdown = ({
       {({ open }) => (
         <>
           {title && (
-            <Listbox.Label className={`block text-sm font-medium text-primary`}>
+            <Listbox.Label
+              className={`block text-sm font-medium text-primary bg-slate-400`}
+            >
               {title}
             </Listbox.Label>
           )}
